@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Muli:wght@800&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -20,6 +21,7 @@ section {
   --Crimson: "Crimson Text", serif;
   --Condens: "Open Sans Condens ed", sans-serif;
   --Muli: "Muli", sans-serif;
+  --Varela: "Varela", sans-serif;
 }
 
 header a {
@@ -87,8 +89,8 @@ header .row .col-md-5 img {
 }
 
 header {
-  background: linear-gradient(123deg, rgba(49,24,131,0.4) 0%, rgba(110, 89, 216, 0.2)100%), url("assets/bannerImage.jpg");
-  background-size:cover ;
+  background: linear-gradient(123deg, rgba(49,24,131,0.4) 0%, rgba(110, 89, 216, 0.2)100%), url("assets/dental-health-care-website-header.jpg") no-repeat;
+  background-size:cover;
  
 
 }
@@ -117,7 +119,7 @@ header .container .col-md-7 p {
   border-radius: 12px;
   font-weight: bold;
   opacity: .7;
-  font-family: var(--Rubik);
+  font-family: var(--Varela);
 }
 
 /********** section 1 **************/
@@ -147,7 +149,7 @@ header .container .col-md-7 p {
   text-align: left;
   padding: 13vmin 5vmin 20vmin 10vmin;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-  font-family: var(--Crimson);
+  font-family: var(--Varela);
   z-index: 1;
 }
 
@@ -190,13 +192,13 @@ header .container .col-md-7 p {
 }
 
 .cover .content > h1 {
-  font-family: var(--Crimson);
+  font-family: var(--Varela);
   font-size: 6vmin;
   color: whitesmoke;
 }
 
 .cover .content > p {
-  font-family: var(--Condens);
+  font-family: var(--Varela);
   font-size: 2vmin;
   color: #e5e5e5;
 }
@@ -223,13 +225,13 @@ header .container .col-md-7 p {
 }
 
 .numbers .rect > p {
-  font-family: var(--Crimson);
+  font-family: var(--Varela);
 }
 
 .purchase > h1 {
   padding-top: 15vmin;
   padding-bottom: 0.1em;
-  font-family: var(--Crimson);
+  font-family: var(--Varela);
 }
 
 .purchase > p {
@@ -409,17 +411,15 @@ footer .column i + i {
 
 
 /*Dental Implant Section*/
-.leftcolumn {
-  float: left;
-  width: 75%;
+#blog-img{
+ display: block;
+  width: 50%;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right:auto ;
 }
 
 
-.blog-img {
- background: url("assets/resultImg.jpg") no-repeat;
-  width: 100%;
-  padding: 20px;
-}
 
 
 .card-blog {
@@ -445,7 +445,7 @@ footer .column i + i {
 }
 
 .blog-text{
-  font-family: var(--Rubik);
+  font-family: var(--Varela);
   padding-bottom: 10px;
   color: var(--light-black);
 }
@@ -454,7 +454,7 @@ footer .column i + i {
   display: block;
   margin-left: auto;
 margin-right: auto;
-width: 50% !important;
+width: 20% !important;
 }
 
 .anchor-design{
@@ -509,7 +509,7 @@ width: 20rem;
   margin-top: -5rem;
   margin-left: -5rem;
   font-size: 2rem;
-  font-family: var(--Condens);
+  font-family: var(--Varela);
   text-align: center;
   color: #fff;
   
@@ -566,7 +566,7 @@ width: 20rem;
   margin-top: -5rem;
   margin-left: -5rem;
   font-size: 2rem;
-  font-family: var(--Condens);
+  font-family: var(--Varela);
   text-align: center;
   color: #fff;
   
