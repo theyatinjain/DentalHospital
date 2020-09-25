@@ -28,6 +28,7 @@ $(window).scroll(function () {
     a++;
     nCount(".rect > h1");
   }
+ 
 });
 
 
