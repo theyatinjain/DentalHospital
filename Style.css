@@ -24,10 +24,40 @@ section {
   --Varela: "Varela", sans-serif;
 }
 
-header a {
+.navbar a {
   font-family: var(--Condens);
   font-size: 0.9em;
   color: whitesmoke;
+}
+
+.container-fluid.navbar {
+  background: linear-gradient(123deg, rgba(49,24,131,0.4) 0%, rgba(110, 89, 216, 0.2)100%), url("assets/dental-health-care-website-header.jpg") no-repeat;
+  background-size:cover;
+}
+
+.navbar .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+.navbar .nav-item {
+  padding: 0.9em;
+}
+
+.navbar .navbar-brand {
+  padding-left: 8rem;
+}
+
+.navbar .nav-link:hover {
+  color: black;
+}
+
+header {
+  background: linear-gradient(123deg, rgba(49,24,131,0.4) 0%, rgba(110, 89, 216, 0.2)100%), url("assets/dental-health-care-website-header.jpg") no-repeat;
+  background-size:cover;
+}
+
+.logo{
+  height: 2rem;
 }
 
 .dropdown-content {
@@ -39,10 +69,6 @@ header a {
   z-index: 1;
 }
 
-
-.logo{
-  height: 2rem;
-}
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -58,22 +84,6 @@ header a {
   display: block;
 }
 
-header .nav-item:last-child {
-  padding-right: 10.5em;
-}
-
-header .nav-item {
-  padding: 0.9em;
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
-}
-
-header .nav-link:hover {
-  color: black;
-}
-
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
@@ -86,13 +96,6 @@ header .row .col-md-5 {
 header .row .col-md-5 img {
   width: 100%;
   height: 100%;
-}
-
-header {
-  background: linear-gradient(123deg, rgba(49,24,131,0.4) 0%, rgba(110, 89, 216, 0.2)100%), url("assets/dental-health-care-website-header.jpg") no-repeat;
-  background-size:cover;
- 
-
 }
 
 header .container .col-md-7 {
