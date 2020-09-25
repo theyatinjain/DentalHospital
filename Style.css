@@ -662,3 +662,26 @@ width: 20rem;
   margin-right: auto;
       width: 100%;
 }
+
+
+/*     -----------------FORM-----------------     */
+
+.contact {
+  margin: 5rem 0;
+}
+
+.my-form {
+  color: #2f2f2f;
+}
+.my-form .btn-default {
+  background-color: #2f2f2f;
+  color: #fff;
+  border-radius: 0;
+}
+.my-form .btn-default:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.my-form .form-control {
+  border-radius: 0;
+}
